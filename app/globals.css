@@ -26,3 +26,9 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Ensure Next.js portals render in correct stacking order */
+nextjs-portal {
+  position: relative;
+  z-index: auto;
+}
+
